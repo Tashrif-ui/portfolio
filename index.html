@@ -93,10 +93,9 @@
       </p>
 
       <p class="hero-lede reveal" style="--d:.15s">
-        CSE graduate from North South University. I build modern, responsive web
-        applications with <strong>Next.js</strong>, <strong>React</strong> and
-        <strong>JavaScript</strong> &mdash; and I&rsquo;m drawn to problems where good
-        engineering actually changes the outcome.
+        CSE graduate from North South University. I build production web applications in
+        <strong>Next.js</strong>, <strong>React</strong> and <strong>TypeScript</strong>
+        &mdash; ERPs, marketplaces and internal tools that real businesses run on.
       </p>
 
       <div class="hero-cta reveal" style="--d:.2s">
@@ -111,9 +110,9 @@
       </div>
 
       <div class="hero-stats reveal" style="--d:.25s">
-        <div class="stat"><b data-count="327">0</b><span>contributions<br>last year</span></div>
-        <div class="stat"><b data-count="12">0</b><span>repositories<br>contributed to</span></div>
-        <div class="stat"><b data-count="4">0</b><span>months<br>industry internship</span></div>
+        <div class="stat"><b data-count="300" data-suffix="+">0</b><span>commits shipped<br>to production</span></div>
+        <div class="stat"><b data-count="5">0</b><span>production<br>codebases</span></div>
+        <div class="stat"><b data-count="7">0</b><span>months building<br>professionally</span></div>
       </div>
     </div>
 
@@ -134,27 +133,30 @@
       <div class="about-grid">
         <div class="about-copy reveal">
           <p class="lead">
-            I&rsquo;m a Computer Science &amp; Engineering graduate who spent four months as a
-            Software Engineering Intern at <strong>Codemoly</strong>, shipping features on
-            real client products alongside senior developers.
+            I&rsquo;m a Computer Science &amp; Engineering graduate who joined
+            <strong>Codemoly</strong> as an intern and stayed on to build client products
+            full time. Since February 2026 I&rsquo;ve shipped over 300 commits across five
+            production codebases.
           </p>
           <p>
-            There I built responsive interfaces in Next.js and React, turned repeated
-            patterns into reusable UI components, integrated REST APIs, and worked the
-            full Agile loop &mdash; sprint planning, code review, debugging and testing.
-            Most of what I learned came from having my code reviewed properly.
+            Most of that is business software with real weight behind it &mdash; a garments
+            ERP running a factory&rsquo;s procurement and shipment workflow, an ads platform
+            where I wrote the majority of the codebase, a multi-vendor marketplace. I work
+            in Next.js and TypeScript with Drizzle or Prisma over PostgreSQL, and I tend to
+            end up owning dashboards, reporting and the admin surfaces where a lot of the
+            real complexity hides.
           </p>
           <p>
-            Outside of client work I&rsquo;m interested in artificial intelligence and applied
-            machine learning &mdash; multi-agent systems, medical image segmentation, and
-            predictive modelling. I&rsquo;m currently looking for an entry-level Software
-            Engineer role where I can keep building and keep growing.
+            Outside client work I&rsquo;m interested in applied machine learning &mdash;
+            multi-agent systems, medical image segmentation and predictive modelling. I like
+            problems where good engineering actually changes the outcome, and I&rsquo;m open
+            to roles where I can keep building at that level.
           </p>
 
           <ul class="fact-list">
             <li><span>Based in</span><b>Dhaka, Bangladesh</b></li>
             <li><span>Education</span><b>B.Sc. in CSE, North South University <i>(2022&ndash;2026)</i></b></li>
-            <li><span>Experience</span><b>Software Engineering Intern, Codemoly <i>(Feb&ndash;May 2026)</i></b></li>
+            <li><span>Experience</span><b>Software Engineer, Codemoly <i>(Feb 2026 &ndash; Present)</i></b></li>
             <li><span>Languages</span><b>English, Hindi, Bengali</b></li>
           </ul>
         </div>
@@ -170,17 +172,22 @@
 
             <p class="stack-label">Frontend</p>
             <ul class="chips">
-              <li>Next.js</li><li>React.js</li><li>JavaScript</li><li>HTML5</li><li>CSS3</li>
+              <li>Next.js 16</li><li>React 19</li><li>TypeScript</li><li>Tailwind CSS</li><li>Recharts</li><li>HTML5</li><li>CSS3</li>
+            </ul>
+
+            <p class="stack-label">Backend &amp; Data</p>
+            <ul class="chips">
+              <li>PostgreSQL</li><li>Drizzle ORM</li><li>Prisma</li><li>MySQL</li><li>REST APIs</li><li>Zod</li><li>Socket.IO</li>
             </ul>
 
             <p class="stack-label">Languages</p>
             <ul class="chips">
-              <li>C / C++</li><li>Java</li><li>SQL</li>
+              <li>TypeScript</li><li>JavaScript</li><li>C / C++</li><li>Java</li><li>SQL</li><li>Python</li>
             </ul>
 
-            <p class="stack-label">Data &amp; Tools</p>
+            <p class="stack-label">Tooling</p>
             <ul class="chips">
-              <li>MySQL</li><li>REST APIs</li><li>Git</li><li>GitHub</li><li>VS Code</li><li>Agile</li>
+              <li>Git</li><li>GitHub</li><li>Monorepos</li><li>Agile</li><li>Code review</li><li>VS Code</li>
             </ul>
           </div>
         </aside>
@@ -200,89 +207,107 @@
       <div class="work-intro reveal">
         <h3 class="group-title">Client &amp; Product Work</h3>
         <p class="group-note">
-          Built during my internship at Codemoly. These are private client repositories,
-          so the source isn&rsquo;t public &mdash; the descriptions focus on what I contributed.
+          Production systems I build at Codemoly, in Next.js and TypeScript. These are
+          private client repositories, so the source isn&rsquo;t public &mdash; each card
+          describes the work I actually shipped.
         </p>
       </div>
 
       <div class="cards" id="clientWork">
 
-        <article class="card reveal">
+        <article class="card card--lead reveal">
           <div class="card-top">
-            <span class="card-icon" aria-hidden="true">&#129525;</span>
-            <span class="card-tag">Private client work</span>
+            <span class="card-icon" aria-hidden="true">&#128202;</span>
+            <span class="card-tag card-tag--lead">Lead developer</span>
           </div>
-          <h4 class="card-title">Garments Production Platform</h4>
-          <p class="card-desc" data-todo>
-            Management system for a ready-made-garments manufacturer.
-            <em>&mdash; confirm what this product does and which parts you built.</em>
+          <h4 class="card-title">Ad Account Management Platform</h4>
+          <p class="card-desc">
+            A platform for a digital-ads agency to run client ad accounts end to end:
+            wallet top-ups, treasury and transactions, per-client exchange-rate overrides,
+            support tickets and broadcasts, with two-factor auth on every account.
           </p>
-          <ul class="card-tech"><li>Next.js</li><li>React</li><li>REST API</li></ul>
+          <p class="card-role">
+            I wrote <strong>74 of its 87 commits</strong> &mdash; the admin client console,
+            manual wallet adjustments, bulk rate overrides, realtime ticket updates, and a
+            date-ranged finance overview that exports to PDF.
+          </p>
+          <ul class="card-tech"><li>Next.js 16</li><li>React 19</li><li>TypeScript</li><li>Drizzle ORM</li><li>Socket.IO</li><li>Recharts</li></ul>
         </article>
 
         <article class="card reveal" style="--d:.06s">
           <div class="card-top">
-            <span class="card-icon" aria-hidden="true">&#128722;</span>
+            <span class="card-icon" aria-hidden="true">&#129525;</span>
             <span class="card-tag">Private client work</span>
           </div>
-          <h4 class="card-title">SoftMart &mdash; Commerce System</h4>
-          <p class="card-desc" data-todo>
-            E-commerce / point-of-sale platform.
-            <em>&mdash; confirm scope and your contribution.</em>
+          <h4 class="card-title">RMG ERP &mdash; Garments Manufacturing</h4>
+          <p class="card-desc">
+            A tenant-aware ERP for Bangladeshi export garment factories, covering the real
+            factory workflow: buyer inquiry, sampling, costing, orders, BOM, procurement,
+            inventory, production, quality and shipment.
           </p>
-          <ul class="card-tech"><li>Next.js</li><li>React</li><li>MySQL</li></ul>
+          <p class="card-role">
+            <strong>95 commits</strong> across procurement, planning, shipment, cutting and
+            shop-floor modules. I built the role-based dashboards &mdash; KPI cards, orders
+            trend and status charts, responsive sparklines &mdash; plus Excel report exports
+            and an app-wide theme customiser.
+          </p>
+          <ul class="card-tech"><li>Next.js 16</li><li>React 19</li><li>TypeScript</li><li>PostgreSQL</li><li>Drizzle ORM</li><li>ExcelJS</li></ul>
         </article>
 
         <article class="card reveal" style="--d:.12s">
           <div class="card-top">
-            <span class="card-icon" aria-hidden="true">&#127973;</span>
+            <span class="card-icon" aria-hidden="true">&#128722;</span>
             <span class="card-tag">Private client work</span>
           </div>
-          <h4 class="card-title">Clinic Management Platform</h4>
-          <p class="card-desc" data-todo>
-            Appointment booking and patient records for a healthcare provider.
-            <em>&mdash; confirm scope and your contribution.</em>
+          <h4 class="card-title">Multi-Vendor Marketplace</h4>
+          <p class="card-desc">
+            A single-platform marketplace built as a monorepo: a customer storefront, a
+            vendor and operator console, a versioned API, and React Native apps for both
+            buyers and sellers.
           </p>
-          <ul class="card-tech"><li>Next.js</li><li>React</li><li>REST API</li></ul>
+          <p class="card-role">
+            <strong>70 commits</strong>, mostly in the console and storefront. I rebuilt the
+            header and hero, added a scannable product specifications table and the buyer
+            account area, gave sellers the reports and dispute views their desk was missing,
+            and wrote the console&rsquo;s in-app manual.
+          </p>
+          <ul class="card-tech"><li>Next.js 16</li><li>React 19</li><li>TypeScript</li><li>Tailwind 4</li><li>Monorepo</li></ul>
         </article>
 
         <article class="card reveal" style="--d:.18s">
           <div class="card-top">
-            <span class="card-icon" aria-hidden="true">&#128202;</span>
+            <span class="card-icon" aria-hidden="true">&#128141;</span>
             <span class="card-tag">Private client work</span>
           </div>
-          <h4 class="card-title">Enterprise Resource Planning (ERP)</h4>
-          <p class="card-desc" data-todo>
-            Internal ERP modules.
-            <em>&mdash; confirm which modules you worked on.</em>
+          <h4 class="card-title">Ceremoney &mdash; Wedding Planning Platform</h4>
+          <p class="card-desc">
+            A wedding planning product with a couples&rsquo; planner, a vendor marketplace
+            and a vendor portal, plus billing and payments.
           </p>
-          <ul class="card-tech"><li>Next.js</li><li>React</li><li>MySQL</li></ul>
+          <p class="card-role">
+            <strong>34 commits</strong>. I built the planner and vendor marketplace modules,
+            the seating-chart editor and reception menu, and page-builder widgets with
+            feature gating for the marketing site.
+          </p>
+          <ul class="card-tech"><li>Next.js 15</li><li>React 19</li><li>TypeScript</li><li>Prisma</li><li>PostgreSQL</li><li>React Query</li></ul>
         </article>
 
         <article class="card reveal" style="--d:.24s">
           <div class="card-top">
-            <span class="card-icon" aria-hidden="true">&#127891;</span>
+            <span class="card-icon" aria-hidden="true">&#129513;</span>
             <span class="card-tag">Private client work</span>
           </div>
-          <h4 class="card-title">Learning Management System</h4>
-          <p class="card-desc" data-todo>
-            Course delivery and student progress tracking.
-            <em>&mdash; confirm scope and your contribution.</em>
+          <h4 class="card-title">Page Builder &amp; Business Services Site</h4>
+          <p class="card-desc">
+            A business-formation service site running on an in-house page builder &mdash;
+            drag-and-drop widgets, themeable presets and a CMS behind the marketing pages.
           </p>
-          <ul class="card-tech"><li>Next.js</li><li>React</li><li>REST API</li></ul>
-        </article>
-
-        <article class="card reveal" style="--d:.3s">
-          <div class="card-top">
-            <span class="card-icon" aria-hidden="true">&#128141;</span>
-            <span class="card-tag">Private client work</span>
-          </div>
-          <h4 class="card-title">Event &amp; Wedding Platform</h4>
-          <p class="card-desc" data-todo>
-            Event planning / invitation product.
-            <em>&mdash; confirm scope and your contribution.</em>
+          <p class="card-role">
+            <strong>28 commits</strong> on the builder itself: a theme customiser with colour
+            and font controls, icon and layout options for the stats widget, footer presets,
+            and fixes for widget crashes caused by missing theme data.
           </p>
-          <ul class="card-tech"><li>JavaScript</li><li>CSS</li><li>HTML</li></ul>
+          <ul class="card-tech"><li>Next.js 15</li><li>React 19</li><li>TypeScript</li><li>Prisma</li><li>Tailwind 4</li></ul>
         </article>
 
       </div>

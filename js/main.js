@@ -128,9 +128,10 @@
 
   function countUp(el) {
     var target = parseInt(el.getAttribute('data-count'), 10) || 0;
+    var suffix = el.getAttribute('data-suffix') || '';
 
     if (reduceMotion) {
-      el.textContent = String(target);
+      el.textContent = target + suffix;
       return;
     }
 
@@ -141,7 +142,7 @@
       if (start === null) start = ts;
       var p = Math.min((ts - start) / duration, 1);
       var eased = 1 - Math.pow(1 - p, 3); // easeOutCubic
-      el.textContent = String(Math.round(target * eased));
+      el.textContent = Math.round(target * eased) + (p === 1 ? suffix : '');
       if (p < 1) window.requestAnimationFrame(step);
     }
 

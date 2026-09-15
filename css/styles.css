@@ -683,10 +683,29 @@ strong { color: var(--text); font-weight: 600; }
   letter-spacing: -.01em;
 }
 .card-desc {
-  flex: 1;
-  margin: 0 0 18px;
+  margin: 0 0 14px;
   font-size: .92rem;
   color: var(--text-muted);
+}
+
+/* What the author personally shipped — set apart from the product blurb. */
+.card-role {
+  flex: 1;
+  margin: 0 0 18px;
+  padding-left: 13px;
+  border-left: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  font-size: .87rem;
+  color: var(--text-muted);
+}
+.card-role strong { color: var(--accent); font-weight: 600; }
+
+/* Lead-developer card gets a permanent accent edge. */
+.card--lead { border-color: color-mix(in srgb, var(--accent) 34%, var(--border)); }
+.card--lead::before { opacity: .85; }
+.card-tag--lead {
+  color: var(--on-accent);
+  background: var(--grad);
+  border-color: transparent;
 }
 .card-desc em {
   display: block;
