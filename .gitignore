@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Dependencies / build (not used today, kept for later)
+node_modules/
+dist/
+.vercel/
+
+# Logs & env
+*.log
+.env
+.env.local
